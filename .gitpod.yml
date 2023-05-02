@@ -10,7 +10,7 @@ tasks:
     command: npm run start
 
   - name: Terminal JSON API
-    init: npm install -g json-server
+    init: npm install
     command: npm run server
 
 ports:
